@@ -1,0 +1,18 @@
+.header__flex {
+  height: 11vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  .header__logo {
+    height: 100%;
+  }
+  .header__cart-widget {
+    width: 10%;
+    margin: 2%;
+    .header__cart {
+      width: 100%;
+    }
+  }
+}
