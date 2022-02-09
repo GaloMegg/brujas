@@ -1,0 +1,15 @@
+.landing__flex {
+  width: 100%;
+  height: 52vh;
+  background-image: url("./images/landing.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: flex-start;
+  .landing__textContainer {
+    background-color: #55555579;
+    width: 50%;
+    height: 100%;
+  }
+}

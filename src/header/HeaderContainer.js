@@ -7,6 +7,7 @@ const HeaderContainer = () => {
             <img src={Hamburguer} alt="navegacion" className="header__hamburguer" />
             <img src={Logo} alt=" logo de brujas" className="header__logo" />
             <div className="header__cart-widget">
+                <p>1</p>
                 <img src={Cart} alt="carrito de compras" className="header__cart" />
             </div>
         </div>);
