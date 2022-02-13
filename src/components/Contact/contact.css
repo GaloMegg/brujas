@@ -1,0 +1,134 @@
+/* Mobile First 360px */
+
+.contact--container {
+    display: flex;
+    flex-flow: column nowrap;
+    font-family: 'Lato', sans-serif;
+    padding: 16px;
+}
+
+.contact--titles {
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 30px;
+    letter-spacing: 0.07em;
+    color: #CC4545;
+}
+
+.icons--container {
+    width: 100vw;
+    margin-bottom: 20px;
+    flex-flow: row wrap;
+}
+
+.icon--block {
+    display: flex;
+    margin: 0 auto;
+    padding: 10px 0 10px 0;
+    flex-flow: row wrap;
+    width: 50vw;
+    float: left;
+    align-items: center;
+}
+
+.icon__text {
+    margin: 0;
+    padding: 0;
+    width: 127px;
+    /* height: 17px; */
+    left: 58px;
+    /* top: 172px; */
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #222222;
+}
+
+#contact--division__line {
+    width: 91vw;
+    color: #000;
+}
+
+.retiro__icons--container {
+    display: block;
+}
+
+.retiro--block {
+    display: flex;
+    width: 100%;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    margin: 33px 0;
+}
+
+.retiro--block h3 {
+    margin: 10px 0 10px 0;
+}
+
+.retiro--block p {
+    margin: 0;
+    text-align: center;
+}
+
+.contact__form--container {
+    font-family: 'Lato', sans-serif;
+    padding: 16px;
+    background-color: #F2F2F2; 
+}
+
+.contact__form {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.contact__form--fieldset {
+    padding: 10px 20px 10px 0;
+}
+
+.contact__form--label {
+    padding: 7px 0;
+    font-size: 16px;
+    font-weight: 600;
+    color: #222222;
+}
+
+.contact__form--input {
+    width: 40vw;
+    margin: 13px 0;
+    padding: 10px;
+    background: #FFFFFF;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+}
+
+.contact__form--msg {
+    width: 100%;
+    margin: 13px 0;
+    padding: 10px;
+    border: 1px solid #999999;
+    box-sizing: border-box;
+    resize: vertical;
+    min-height: 125px;
+    max-height: 300px;
+}
+
+.form--warning {
+    width: 100vw;
+    padding-bottom: 70px;
+    color: #CC4545;
+}
+
+.contact__form--btn {
+    width: 100%;
+    margin-bottom: 100px;
+    padding: 13px;
+    background-color: #CC4545;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #CC4545;
+    box-shadow: 0 0 7px black;
+} 
