@@ -1,9 +1,11 @@
-import PaginaDeContacto from './components/Contact/PaginaDeContacto';
+// import PaginaDeContacto from './components/Contact/PaginaDeContacto';
+import SobreNosotros from './components/AboutUs/SobreNosotros';
 
 function App() {
   return (
     <div className="App">
-      <PaginaDeContacto />
+      {/* <PaginaDeContacto /> */}
+      <SobreNosotros />
     </div>
   );
 }
