@@ -1,6 +1,7 @@
+import Moreproducts from "./moreproducts/Moreproducts";
 
 const LandingContainer = () => {
-  return (
+  return (<>
     <section className="landing__flex">
       <div className="landing__textContainer">
         <h1 className="landing__text"> <span className="landing__text-b"> Estilo, calidad y comodidad</span> en un mismo lugar.</h1>
@@ -16,6 +17,8 @@ const LandingContainer = () => {
         </div>
       </div>
     </section >
+    <Moreproducts />
+  </>
   );
 };
 
