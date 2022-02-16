@@ -1,0 +1,19 @@
+.carousel__flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5%;
+  .carousel__info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 58%;
+    font-family: "Lato", sans-serif;
+
+    .carousel__info--text {
+      text-align: center;
+      font-size: 0.938rem;
+    }
+  }
+}

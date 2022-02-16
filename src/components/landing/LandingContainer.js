@@ -1,3 +1,4 @@
+import Carousel from "./carouselIfon/Carousel";
 import Moreproducts from "./moreproducts/Moreproducts";
 
 const LandingContainer = () => {
@@ -18,6 +19,7 @@ const LandingContainer = () => {
       </div>
     </section >
     <Moreproducts />
+    <Carousel />
   </>
   );
 };

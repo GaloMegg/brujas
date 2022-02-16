@@ -11,20 +11,22 @@
     font-family: "Lato", sans-serif;
     font-size: 1.063rem;
     text-align: center;
+    font-weight: 400;
   }
   .moreProducts__button {
     background: none;
     border: 1.5px solid #222222;
-    padding: 2%;
+    padding: 3%;
     display: flex;
     height: 9vh;
     align-items: center;
-    justify-content: center;
+    justify-content: space-around;
+    font-family: "Lato", sans-serif;
     width: 60%;
     .moreProducts__button--text {
-      font-size: 0.875rem;
+      font-size: 0.865rem;
+      line-height: 1.05rem;
       text-align: center;
-      font-family: "Lato", sans-serif;
     }
   }
 }
