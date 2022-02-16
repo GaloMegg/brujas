@@ -31,7 +31,7 @@ const infoArr = [
 ]
 
 const Carousel = () => {
-    const [infoNumber, setInfoNumber] = useState(2)
+    const [infoNumber, setInfoNumber] = useState(0)
     const HandleLeft = () => {
         if (infoNumber !== 0) {
             setInfoNumber(infoNumber - 1)
