@@ -1,0 +1,124 @@
+.productos--container {
+    font-family: 'Lato', 'sans-serif';
+    /* padding: 16px; */
+    color: #FFFFFF;
+}
+
+.productos--nav {
+    width: 100vw;
+}
+
+.productos--list {
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: space-evenly;
+}
+
+.productos--li {
+    width: auto;
+    margin: 16px 0;
+    padding: 0 16px;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+    color: #000000;
+    border-right: 1px solid #222222;
+}
+
+.wo {
+    border-right: 0;
+}
+
+hr {
+    margin: 0px;
+}
+
+.productos__title--container {
+    /* position: relative; */
+    width: 100%;
+    padding: 11px;
+    align-items: center;
+    text-align: center;
+}
+
+/* .productos__title--container:after {
+    content: "";
+    background: black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 50%;
+    width: 1px;
+} */
+
+.productos__title {
+    margin: 0;
+    /* width: min-content; */
+    font-size: 17px;
+    letter-spacing: 0.07em;
+    color: #CC4545;
+}
+
+.productos__card--container {
+    margin: 16px;
+    padding: 0 43px;
+    text-align: center;
+    width:100;
+    color: #FFFFFF;
+    border: 1px solid #999999;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.15);
+}
+
+.productos__card--img {
+    width: 100%;
+}
+
+.productos__card--title {
+    margin: 0;
+    padding: 18px 0 15px 0;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    letter-spacing: 0.02em;
+    color: #222222
+}
+
+.productos__card--price {
+    margin: 0;
+    padding-bottom: 18px;
+    font-weight: 600;
+    font-size: 22px;
+    color: #222222;
+}
+
+.productos__card--cuotas {
+    box-sizing: border-box;
+    padding: 13px;
+    margin-bottom: 18px;
+    border: 1px solid #999999;
+}
+
+.productos__card--cuotas p{
+    margin: 0;
+    font-weight: 300;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #000000;
+}
+
+.productos__card--btn {
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 13px;
+    background-color: #CC4545;
+    border: 1px solid #CC4545;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    color:#FFFFFF;
+}

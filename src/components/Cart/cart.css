@@ -1,0 +1,51 @@
+.exito--container {
+    font-family: 'Lato', 'sans-serif';
+    padding: 16px;
+    color:#FFFFFF;
+}
+
+#exito {
+    font-size: 17px;
+    /* display: flex;
+    align-items: center; */
+    text-align: center; 
+    letter-spacing: 0.07em;
+    padding-bottom: 40px;
+    color: #CC4545;
+}
+
+#exito--txt {
+    font-weight: 300;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #000000;
+}
+
+.exito--img {
+    display: block;
+    margin: auto;
+    padding: 40px 0;
+}
+
+#exito--gracias {
+    padding-bottom: 40px;
+    font-size: 18px;
+    text-align: center;
+    letter-spacing: 0.07em;
+    color: #222222;
+}
+
+#exito--btn {
+    padding-bottom: 40px;
+    width: 100%;
+    margin-bottom: 18px;
+    padding: 13px;
+    background-color: #CC4545;
+    border: 1px solid #CC4545;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+    box-shadow: 0 5px 5px #414141;
+    color:#FFFFFF;
+}
