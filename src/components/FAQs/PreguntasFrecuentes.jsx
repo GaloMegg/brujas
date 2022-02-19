@@ -5,7 +5,7 @@ import './FAQs.css';
 const PreguntasFrecuentes = () => {
 
     return (
-        <div className='faq--container'>
+            <div className='faq--container'>
             <div className='faq--subcontainer'>
                 <h2 className='faq--titles'>CÓMO COMPRAR</h2>
                 <ol className='faq--text'>
@@ -44,10 +44,10 @@ const PreguntasFrecuentes = () => {
                 </p>
             </div>
             <div className='faq__img--container'>
-
+                <img id='faq__top__image' src={ pago } alt='medios de pago' />
+                <img id='faq__bottom__image' src={ talles } alt='guia de talles' />
             </div>    
-        </div>
-        
+            </div>
     )
 }
 

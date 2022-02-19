@@ -13,7 +13,7 @@ function App() {
       {/* <PaginaDeContacto /> */}
       {/* <SobreNosotros /> */}
       {/* <PreguntasFrecuentes /> */}
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

@@ -1,6 +1,7 @@
 import Logo from "./images/logo.png"
 import Hamburguer from "./images/hamburguericon.svg"
 import Cart from "./images/shop-bag.png"
+
 const HeaderContainer = () => {
     return (
         <div className="header__flex">
@@ -10,7 +11,8 @@ const HeaderContainer = () => {
                 <p>1</p>
                 <img src={Cart} alt="carrito de compras" className="header__cart" />
             </div>
-        </div>);
+        </div>
+    );
 };
 
 export default HeaderContainer;
