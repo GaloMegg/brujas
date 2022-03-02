@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "backend for brujastore",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GaloMegg/brujas.git"
+  },
+  "keywords": [
+    "backend",
+    "ecommerce"
+  ],
+  "author": "IvanPontoriero",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/GaloMegg/brujas/issues"
+  },
+  "homepage": "https://github.com/GaloMegg/brujas#readme",
+  "dependencies": {
+    "express": "^4.17.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
