@@ -22,7 +22,8 @@
   },
   "homepage": "https://github.com/GaloMegg/brujas#readme",
   "dependencies": {
-    "express": "^4.17.3"
+    "express": "^4.17.3",
+    "moment": "^2.29.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

@@ -19,9 +19,10 @@ class Carrito {
     async createCart(cart) {
         await this.readCart()
         cart.timestamp = Date.now()
-        cart.id = this.data[this.data.length - 1].id + 1
+        cart.id = Number(this.data[this.data.length - 1].id) + 1
         this.data.push(cart)
         await this.writeCart()
+        return cart.id
     }
 
     async getCart(id) {

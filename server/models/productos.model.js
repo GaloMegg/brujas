@@ -1,4 +1,5 @@
 const fs = require('fs').promises
+const moment = require('moment')
 
 class Productos {
     constructor(filename) {
@@ -49,6 +50,9 @@ class Productos {
 
             data.push({
                 id: lastItem.id + 1, 
+                timestamp: moment(Date.now()).format('DD/MM/YYYY'),
+                code: Math.floor((Math.random() * (99999 - 1)) + 1),
+
                 ...obj
             })
             await fs.writeFile(this.filename, JSON.stringify(data, null, 2))  
