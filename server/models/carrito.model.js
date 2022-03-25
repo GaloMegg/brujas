@@ -4,7 +4,7 @@ const fs = require('fs').promises
 class Carrito {
     constructor() {
         this.path = path.join(__dirname, "../database/carrito.json")
-        this.data = [] // carrito en memoria
+        this.data = [] // carrito en memory
         this.readCart()
     }
 

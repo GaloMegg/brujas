@@ -2,7 +2,7 @@ const { Schema, model } = require('mongoose');
 
 class Product {
     constructor() {
-        const ProductsSchema = new Schema({
+        this.schema = new Schema({
             title: {type: String, required: true, max: 255},
             code: {type: Number, required: true, default: Math.floor((Math.random() * (99999 - 1)) + 1)},
             price: {type: Number, required: true},
@@ -12,7 +12,7 @@ class Product {
             timestamps: { createdAt: true, updatedAt: true }
         });
 
-        this.model = model('Products', ProductsSchema);    
+        this.model = model('Products', this.schema);    
     }
 
     async create(obj) {
