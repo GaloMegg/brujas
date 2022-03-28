@@ -1,9 +1,9 @@
 const { Router } = require('express')
-const fs = require('fs')
 
 const router = Router()
 // const products = require('../controllers/productos.controller')
-const products = require('../controllersdb/productos.controller');
+const products = require('../controllersdb/productos.controller')
+// const products = require('../controllersdb/productos.fbcontroller')
 
 // endpoint de prueba
 router.get('/', products.getAll)

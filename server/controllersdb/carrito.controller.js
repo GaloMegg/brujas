@@ -50,8 +50,9 @@ module.exports = {
         try {
             const { id } = req.params
             const { body } = req
-            const added = await cart.addToCart(id, {...body})
-            res.status(200).send(added)
+            await cart.addToCart(id, {...body})
+            const newCart = await cart.getCartById(id)
+            res.status(200).send(newCart)
         } catch(err) {
             res.status(500).send({
                 error: err.message
